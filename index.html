@@ -11,6 +11,17 @@
             padding: 20px;
             background-color: #f4f4f4;
         }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
         h1 {
             color: #333;
             text-align: center;
@@ -22,7 +33,27 @@
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <h1>Hello from Claude!</h1>
-    <p>This is a simple test page created in a GitHub repository.</p>
+    
+    <section id="home">
+        <h2>Welcome to Our Test Page</h2>
+        <p>This is a simple webpage created as a test project. It demonstrates basic HTML and CSS techniques.</p>
+    </section>
+
+    <section id="about">
+        <h2>About This Project</h2>
+        <p>This page was created to explore GitHub repository management and web development basics.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to explore and learn from this example project!</p>
+    </section>
 </body>
 </html>
